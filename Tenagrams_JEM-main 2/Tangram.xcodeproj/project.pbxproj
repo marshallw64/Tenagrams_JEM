@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3897557D25EECE7800AE7D08 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3897557C25EECE7800AE7D08 /* Actions.sks */; };
-		3897558225EECE9500AE7D08 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3897558125EECE9500AE7D08 /* GameScene.sks */; };
-		3897558725EECEB600AE7D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3897558625EECEB600AE7D08 /* Assets.xcassets */; };
-		3897559025EECEEE00AE7D08 /* RandomPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897558E25EECEEE00AE7D08 /* RandomPolygon.swift */; };
-		3897559125EECEEE00AE7D08 /* PuzzleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3897558F25EECEEE00AE7D08 /* PuzzleData.json */; };
-		3897559D25EED00000AE7D08 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897559B25EED00000AE7D08 /* GameScene.swift */; };
 		38A0EBC825EF43A400CCED26 /* FreeplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A0EBC725EF43A400CCED26 /* FreeplayViewController.swift */; };
 		38D54BBE25E6E1A400C878A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D54BBD25E6E1A400C878A7 /* AppDelegate.swift */; };
 		38D54BC525E6E1A400C878A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D54BC325E6E1A400C878A7 /* Main.storyboard */; };
@@ -20,6 +15,11 @@
 		38D54BD825E6E1A700C878A7 /* TangramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D54BD725E6E1A700C878A7 /* TangramTests.swift */; };
 		38D54BE325E6E1A700C878A7 /* TangramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D54BE225E6E1A700C878A7 /* TangramUITests.swift */; };
 		CB148B2D25F166E500EF248D /* TangramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148B2C25F166E500EF248D /* TangramViewController.swift */; };
+		CB53FEFA260A6EAD003FFAA6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB53FEF9260A6EAD003FFAA6 /* GameScene.sks */; };
+		CB53FEFF260A6EC1003FFAA6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53FEFE260A6EC1003FFAA6 /* GameScene.swift */; };
+		CB53FF07260A6F28003FFAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB53FF06260A6F28003FFAA6 /* Assets.xcassets */; };
+		CB53FF0C260A6F55003FFAA6 /* RandomPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53FF0B260A6F55003FFAA6 /* RandomPolygon.swift */; };
+		CB53FF11260A6F64003FFAA6 /* PuzzleData.json in Resources */ = {isa = PBXBuildFile; fileRef = CB53FF10260A6F64003FFAA6 /* PuzzleData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +41,6 @@
 
 /* Begin PBXFileReference section */
 		3897557C25EECE7800AE7D08 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		3897558125EECE9500AE7D08 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../Sprite Tutorial/Sprite Tutorial/GameScene.sks"; sourceTree = "<group>"; };
-		3897558625EECEB600AE7D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Sprite Tutorial/Sprite Tutorial/Assets.xcassets"; sourceTree = "<group>"; };
-		3897558E25EECEEE00AE7D08 /* RandomPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomPolygon.swift; path = "../../Sprite Tutorial/Sprite Tutorial/RandomPolygon.swift"; sourceTree = "<group>"; };
-		3897558F25EECEEE00AE7D08 /* PuzzleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PuzzleData.json; path = "../../Sprite Tutorial/Sprite Tutorial/PuzzleData.json"; sourceTree = "<group>"; };
-		3897559B25EED00000AE7D08 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = "../../Sprite Tutorial/Sprite Tutorial/GameScene.swift"; sourceTree = "<group>"; };
 		38A0EBC725EF43A400CCED26 /* FreeplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeplayViewController.swift; sourceTree = "<group>"; };
 		38D54BBA25E6E1A400C878A7 /* Tangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tangram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D54BBD25E6E1A400C878A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +54,11 @@
 		38D54BE225E6E1A700C878A7 /* TangramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangramUITests.swift; sourceTree = "<group>"; };
 		38D54BE425E6E1A700C878A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB148B2C25F166E500EF248D /* TangramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangramViewController.swift; sourceTree = "<group>"; };
+		CB53FEF9260A6EAD003FFAA6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CB53FEFE260A6EC1003FFAA6 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CB53FF06260A6F28003FFAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB53FF0B260A6F55003FFAA6 /* RandomPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomPolygon.swift; sourceTree = "<group>"; };
+		CB53FF10260A6F64003FFAA6 /* PuzzleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PuzzleData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +111,13 @@
 			children = (
 				38D54BBD25E6E1A400C878A7 /* AppDelegate.swift */,
 				38D54BC325E6E1A400C878A7 /* Main.storyboard */,
-				3897558F25EECEEE00AE7D08 /* PuzzleData.json */,
-				3897558E25EECEEE00AE7D08 /* RandomPolygon.swift */,
-				3897558625EECEB600AE7D08 /* Assets.xcassets */,
-				3897559B25EED00000AE7D08 /* GameScene.swift */,
+				CB53FF10260A6F64003FFAA6 /* PuzzleData.json */,
+				CB53FF0B260A6F55003FFAA6 /* RandomPolygon.swift */,
+				CB53FF06260A6F28003FFAA6 /* Assets.xcassets */,
+				CB53FEFE260A6EC1003FFAA6 /* GameScene.swift */,
 				38A0EBC725EF43A400CCED26 /* FreeplayViewController.swift */,
 				CB148B2C25F166E500EF248D /* TangramViewController.swift */,
-				3897558125EECE9500AE7D08 /* GameScene.sks */,
+				CB53FEF9260A6EAD003FFAA6 /* GameScene.sks */,
 				3897557C25EECE7800AE7D08 /* Actions.sks */,
 				38D54BCE25E6E1A600C878A7 /* Info.plist */,
 				38D54BC625E6E1A400C878A7 /* Tangram.xcdatamodeld */,
@@ -246,10 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3897559125EECEEE00AE7D08 /* PuzzleData.json in Resources */,
-				3897558225EECE9500AE7D08 /* GameScene.sks in Resources */,
+				CB53FF11260A6F64003FFAA6 /* PuzzleData.json in Resources */,
 				38D54BC525E6E1A400C878A7 /* Main.storyboard in Resources */,
-				3897558725EECEB600AE7D08 /* Assets.xcassets in Resources */,
+				CB53FEFA260A6EAD003FFAA6 /* GameScene.sks in Resources */,
+				CB53FF07260A6F28003FFAA6 /* Assets.xcassets in Resources */,
 				3897557D25EECE7800AE7D08 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,8 +279,8 @@
 				38A0EBC825EF43A400CCED26 /* FreeplayViewController.swift in Sources */,
 				38D54BC825E6E1A400C878A7 /* Tangram.xcdatamodeld in Sources */,
 				CB148B2D25F166E500EF248D /* TangramViewController.swift in Sources */,
-				3897559D25EED00000AE7D08 /* GameScene.swift in Sources */,
-				3897559025EECEEE00AE7D08 /* RandomPolygon.swift in Sources */,
+				CB53FEFF260A6EC1003FFAA6 /* GameScene.swift in Sources */,
+				CB53FF0C260A6F55003FFAA6 /* RandomPolygon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
